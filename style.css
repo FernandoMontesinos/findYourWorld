@@ -275,3 +275,99 @@ body {
 .space {
   height: 200px;
 }
+
+/*Parte del perfil-----------------------*/
+.nombreUsuario{
+  display: block;
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.lista-stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem;
+  list-style: none;
+  font-size: .9rem;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image img {
+  border-radius: 50%;
+}
+
+.profile-bio{
+  margin: 2rem 1rem 1rem 1rem;
+  text-align: center;
+  font-size: .9rem;
+}
+
+.profile-botones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.btn{
+  border: none;
+  border-radius: 1rem;
+  margin: .2rem;
+  width: 6rem;
+  height: 1.5rem;
+  font-family: 'Montserrat', 'sans-serif';
+  font-weight: 500;
+}
+
+.btn-seguir{
+  background-color: #FFDF3B;
+}
+
+.card-perfil{
+  width: 85%;
+  margin: 1rem;
+  margin-top: 2rem;
+}
+
+.container-cards-perfil{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: .1rem;
+  row-gap: 1.5rem;
+}
+
+.imagen-picture-perfil{
+  background-image: url(./assets/gabrielimagen.jpeg);
+    background-position: 50%;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.imagen-picture-perfil-2{
+  background-image: url(./assets/post2.jpg);
+    background-position: 50%;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.imagen-picture-perfil-3{
+  background-image: url(./assets/post1.jpg);
+    background-position: 50%;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
